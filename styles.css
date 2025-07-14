@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Pacifico&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header starts here  */
+header{
+    background: url(images/img1.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+header .nav-links ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    
+}
+
+/* hamburger styling starts here  */
+header .nav-links i{
+    display: none;
+    cursor: pointer;
+}
+/* hamburger styling ends here  */
+
+
+header .nav-links ul li a{
+   text-decoration: none;
+   font-family: Open Sans;
+   font-weight: 400;
+   font-size: 18px;
+   color: white;
+}
+
+header .nav-links ul li a:hover{
+    color: #F97560;
+}
+
+
+
+
+.hero-content{
+    padding: 100px;
+}
+
+
+.hero-content p{
+    padding-bottom: 20px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.704);
+}
+
+.hero-content h1{
+    font-family: Lora;
+    font-size: 72px;
+    color: white;
+    font-weight: 600;
+}
+
+.hero-content .hero-content-end{
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+
+
+.hero-content .hero-content-end p{
+    font-family: Pacifico;
+}
+
+.hero-content .hero-content-end p span{
+    color: #F97560;
+}
+
+.hero-content .hero-content-end button{
+    padding: 10px 10px;
+    background-color: #F97560;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.hero-content .hero-content-end button:hover{
+    background-color: white;
+    color:#F97560;
+}
+/* header ends here  */
+
+
+
+
+/* her0 section starts here  */
+
+.hero{
+    background-color: rgba(0, 0, 0, 0.874);
+    display: flex;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+
+.hero .container1{
+    max-width: 1000px;
+    width: 100%;
+    text-align: justify;
+}
+
+.hero .container1 h1{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 40px;
+    border-bottom: 4px solid #1E404B;
+}
+
+.hero .container1 p{
+    font-family: Poppins;
+    
+    
+}
+
+
+
+
+
+
+.hero .container2 {
+    max-width: 1000px;
+    width: 100%;
+    text-align: justify;
+}
+
+.hero .container2 h1{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 40px;   
+    border-bottom: 4px solid #1E404B;
+}
+
+
+.hero .container2 p #more{
+    display: none;
+}
+
+.hero .container2 p #btn{
+    color: #F97560;
+    background: none;
+    font-weight: 500;
+    font-family: Poppins;
+    cursor: pointer;
+    border: none;
+}
+.hero .container2 h3{
+    font-family: Lora;
+    font-weight: 700;
+
+}
+
+.hero .container2 p{
+    font-family: Poppins;
+   
+}
+/* hero section ends here  */
+
+
+
+
+
+/* event section starts here  */
+.event-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(images/img2.jpg) no-repeat center center/cover;
+    background-position: top;
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.event-section .event-content{
+   padding-top: 150px;
+}
+
+
+.event-section .event-content h1{
+    font-family: Lora;
+    color: white;
+    font-size: 72px;
+}
+
+
+
+.event-section .event-content p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Pacifico;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.event-section .event-content button{
+    padding: 10px 20px;  
+    border-radius: 5px;
+    border: none;
+    background-color: #F97560;
+    color: white;
+    font-size: 15px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+
+.event-section .event-content button:hover{
+    background-color: white;
+    color: #F97560;
+}
+
+
+
+/* styling for the countdown starts here  */
+.event-section #countdown{
+    color: white;
+    font-size: 70px;
+    padding-top: 150px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.days{
+    color: white;
+    padding-right: 15px;
+}
+
+
+.hours{
+    padding-right: 15px;
+}
+
+
+.minutes{
+    padding-right: 15px;
+}
+
+
+
+.seconds{
+    color: #F97560;
+}
+/* event section ends here  */
+
+
+
+
+
+/* music section starts here  */
+.music-section{
+    display: flex;
+    background-color: #081316;
+    color: white;
+    padding: 100px;
+    padding-bottom: 0px;
+    gap: 50px;
+    
+}
+
+.music-section .album {
+    max-width: 1000px;
+    width: 100%;
+    
+}
+
+.music-section .album h1{
+    border-bottom: 4px solid #1E404B;
+    padding-bottom: 5px;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.music-section .album .album1{
+    padding-top: 20px;
+    height: 400px;
+}
+
+
+
+.music-section .music{
+    max-width: 1000%;
+    width: 100%;
+}
+
+.music-section .music h1{
+    border-bottom: 4px solid #1E404B;
+    padding-bottom: 5px;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.music-section .music .one{
+    padding-top: 20px;
+    
+}
+
+.music-section .music .two {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/* media query starts here */
+/* heading media query starts here  */
+@media screen and (max-width:701px) {
+    #navMenu{
+        display: none;
+    }
+}
+@media screen and (max-width:701px) {
+    header .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;                    
+        text-align: center  ;
+        background-color: rgba(0, 0, 0, 0.453);
+        backdrop-filter: blur(10px);
+        gap: 15px;
+        padding-left: 0px;
+
+       
+    }
+
+
+        header .nav-links ul li a{
+            font-size: 15px;
+        }
+
+
+    header .nav-links i{
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:578px) {
+    .hero-content {
+            padding: 50px;
+        }
+
+        .hero{
+    
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+        }
+
+
+    .event-section{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .music-section{
+        padding: 50px;
+    }
+}
+
+
+
+@media screen and (max-width:450px) {
+    .hero-content {
+        padding: 25px;
+    }
+
+    .hero-content .hero-content-end p{
+        font-size: 13px;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+
+    .hero-content{
+        padding-top: 100px;
+    }
+
+
+
+    .hero-content p{
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .hero-content h1{
+        font-family: Lora;
+        font-size: 50px;
+    }
+    
+    .hero-content .hero-content-end{
+        margin-top: 50px;
+        padding: 0px 100px;
+    }
+    
+    
+    .hero-content .hero-content-end button{
+        margin-top: 20px;
+        width: 90px;
+        font-size: 15px;
+    }
+    
+}
+/* heading media query ends here  */
+
+
+
+
+
+/* hero-section media query starts here */
+@media screen and (max-width:749px) {
+    .hero .container1 h1{
+        font-size: 30px;
+    }
+    
+    .hero .container1 p{
+        font-size: 13px;
+    }
+
+
+    .hero .container2 h1{
+        font-size: 30px;   
+    }
+    
+    .hero .container2 h3{
+        font-size: 15px;
+    
+    }
+    
+    .hero .container2 p{
+        font-size: 13px;
+       
+    }
+    
+    
+}
+
+
+
+
+@media screen and (max-width:637px) {
+    .hero .container1 h1 {
+        font-size: 25px;
+    }
+
+    .hero .container1 p {
+        font-size: 10px;
+    }
+
+
+    .hero .container2 h1 {
+        font-size: 25px;
+    }
+
+    .hero .container2 h3 {
+        font-size: 12px;
+
+    }
+
+    .hero .container2 p {
+        font-size: 10px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:459px) {
+    
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero .container1 h1 {
+    font-size: 40px;
+}
+
+.hero .container1 p {
+    font-size: 15px;
+}
+
+
+.hero .container2 h1 {
+    font-size: 40px;
+}
+
+.hero .container2 h3 {
+    font-size: 17px;
+
+}
+
+.hero .container2 p {
+    font-size: 15px;
+
+}}
+/* hero section ends here   */
+
+
+/* even section starts here  */
+@media screen and (max-width:1229px) {   
+     
+     .event-section .event-content h1{
+         font-size: 50px;
+     }
+     
+     
+     
+     .event-section .event-content p{
+         padding-top: 25px;
+         padding-bottom: 25px;
+         font-size: 15px;
+     }
+
+
+
+     .event-section #countdown{
+        font-size: 50px;
+    }
+    
+    .days{
+        color: white;
+        padding-right: 10px;
+    }
+    
+    
+    .hours{
+        padding-right: 10px;
+    }
+    
+    
+    .minutes{
+        padding-right: 10px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:900px) {   
+     
+    .event-section .event-content h1{
+        font-size: 38px;
+    }
+    
+    
+    
+    .event-section .event-content p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+
+
+    .event-section #countdown{
+       font-size: 40px;
+   }
+   
+   .days{
+       color: white;
+       padding-right: 7px;
+   }
+   
+   
+   .hours{
+       padding-right: 7px;
+   }
+   
+   
+   .minutes{
+       padding-right: 7px;
+   }
+}
+
+
+
+@media screen and (max-width:752px) {
+
+     
+    .event-section .event-content h1{
+        font-size: 30px;
+    }
+    
+    
+    
+    .event-section .event-content p{
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 10px;
+    }
+
+
+
+    .event-section #countdown{
+       font-size: 30px;
+   }
+   
+   .days{
+      
+       padding-right: 5px;
+   }
+   
+   
+   .hours{
+       padding-right: 5px;
+   }
+   
+   
+   .minutes{
+       padding-right: 5px;
+   }
+}
+
+
+@media screen and (max-width:530px) {
+    .event-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event-section .event-content h1 {
+    font-size: 50px;
+}
+
+
+
+.event-section .event-content p {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+
+
+.event-section #countdown {
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.days {
+
+    padding-right: 8px;
+}
+
+
+.hours {
+    padding-right: 8px;
+}
+
+
+.minutes {
+    padding-right: 8px;
+}
+}
+
+
+@media screen and (max-width:352px) {
+    
+    .event-section .event-content h1 {
+        font-size: 40px;
+    }
+    
+    
+    
+    .event-section .event-content p {
+        padding-top: 18px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+    
+    
+    
+    .event-section #countdown {
+        font-size: 20px;
+        padding-top: 70px;
+    }
+    
+    .days {
+    
+        padding-right: 6px;
+    }
+    
+    
+    .hours {
+        padding-right: 6px;
+    }
+    
+    
+    .minutes {
+        padding-right: 6px;
+    }
+}
+/* event section ends here  */
+
+
+
+/* music section starts here  */
+@media screen and (max-width:1246px) {
+    .music-section .album .album1{
+        max-width: 500px;
+        width: 100%;
+    }
+
+
+    .music-section .music .song{
+        max-width: 600px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:793px) {
+    .music-section{
+       display: flex;
+       flex-direction: column;
+}}
+
+
+
