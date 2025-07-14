@@ -94,6 +94,15 @@ header .nav-links ul li a:hover{
     background-color: white;
     color:#F97560;
 }
+
+header .social-icons{
+    padding-left: 100px;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;   
+}
+
+
 /* header ends here  */
 
 
@@ -402,6 +411,11 @@ header .nav-links ul li a:hover{
     .music-section{
         padding: 50px;
     }
+
+    
+header .social-icons{
+    padding-left: 50px;
+}
 }
 
 
@@ -448,6 +462,10 @@ header .nav-links ul li a:hover{
         width: 90px;
         font-size: 15px;
     }
+
+    header .social-icons {
+    padding-top: 50px;
+}
     
 }
 /* heading media query ends here  */
@@ -703,6 +721,10 @@ header .nav-links ul li a:hover{
 
 .minutes {
     padding-right: 8px;
+}
+header .social-icons {
+    gap: 15px;
+    font-size: 20px;
 }
 }
 

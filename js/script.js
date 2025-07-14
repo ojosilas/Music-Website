@@ -76,9 +76,3 @@ const countdown = setInterval(() => {
 
 },1000);
 
-
-//putting tags for days, hours, minutes and seconds starts here
-document.getElementById('countdown').innerHTML= `<span class = "days">${days}d</span>` +
-`<span class = "hours">${hours}h</span>` +
-`<span class = "minutes">${minutes}m</span>` +
-`<span class = "seconds">${seconds}s</span>`
