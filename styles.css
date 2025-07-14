@@ -297,12 +297,20 @@ header .nav-links ul li a:hover{
 .music-section .album .album1{
     padding-top: 20px;
     height: 400px;
+    max-width: 900px;
+    width: 100%;
 }
 
 
 
+.music-section .music .song {
+    max-width: 900px;
+    width: 100%;
+}
+
+
 .music-section .music{
-    max-width: 1000%;
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -739,19 +747,9 @@ header .nav-links ul li a:hover{
 
 
 
+
+
 /* music section starts here  */
-@media screen and (max-width:1246px) {
-    .music-section .album .album1{
-        max-width: 500px;
-        width: 100%;
-    }
-
-
-    .music-section .music .song{
-        max-width: 600px;
-        width: 100%;
-    }
-}
 
 
 @media screen and (max-width:793px) {
@@ -759,6 +757,7 @@ header .nav-links ul li a:hover{
        display: flex;
        flex-direction: column;
 }}
+/* music section ends here  */
 
 
 
