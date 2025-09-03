@@ -1,3 +1,14 @@
+// script for popup starts here 
+// window.onload = function() {
+//     document.getElementById("popup").style.display = "block"
+// }
+
+function closePopup () {
+    document.getElementById('popup').style.display = "none"
+}
+
+
+
 //script for hamburger starts here
 const hamburger = document.getElementById('hamburger')
 const navMenu = document.getElementById('navMenu')

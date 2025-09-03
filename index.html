@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+ 
     <!-- header section starts  -->
     <header>    
         <div class="nav-links">
             <!-- hamburger icon starts here  -->
-            <i id="hamburger" style="color: #F97560;;" class="fa-solid fa-bars"></i>
+            <i id="hamburger" style="color: #F97560;" class="fa-solid fa-bars"></i>
              <!-- hamburger icon ends here  -->
             <ul id="navMenu" >
                 <li><a href="#bio">Bio</a></li>
@@ -26,6 +28,36 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
+
+        <!-- popup starts here  -->
+        <div class="popup" id="popup">
+          <div class="popup-content">
+    -       <div class="cancel">
+               <button onclick="closePopup ()" id="close-popup">X</button>
+            </div>
+          <h1 class="heading">
+            SIGN UP TO <br>
+            RECEIVE LATEST UPDATES
+          </h1>
+
+          <div class="form-details">
+           <h1 class="name">WIZKID</h1>
+           <input class="email" type="email" placeholder="Enter your email" required>
+
+           <div class="names">
+             <input class="first" type="text" placeholder="First Name" required>
+             <input class="last" type="text" placeholder="Last Name" required>
+           </div>
+
+           <input class="number" type="number" placeholder="Phone Number" required>
+
+           <div class="submit-button">
+             <button>SUBMIT</button>
+           </div>
+            </div>
+          </div>
+        </div>
+
 
         <div class="hero-content" id="home">
             <p>Official Site</p>
@@ -40,19 +72,21 @@
             </div>
         </div>
 
+        
+
 
         <div class="social-icons">
-            <a href="https://web.facebook.com/wizkidmusic/?_rdc=1&_rdr#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+            <a href="https://web.facebook.com/wizkidmusic/?_rdc=1&_rdr#" target="_blank"><i  class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
 
-           <a href="https://x.com/wizkidayo"> <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+           <a href="https://x.com/wizkidayo" target="_blank"> <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
 
-            <a href="https://www.instagram.com/wizkidayo/?hl=en"><i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i></a>
+            <a href="https://www.instagram.com/wizkidayo/?hl=en" target="_blank" ><i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i></a>
 
-           <a href="https://www.youtube.com/user/WizkidVEVO"> <i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+           <a href="https://www.youtube.com/user/WizkidVEVO" target="_blank" > <i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
 
-            <a href="https://open.spotify.com/artist/3tVQdUvClmAT7URs9V3rsp"><i class="fa-brands fa-spotify" style="color: #ffffff;"></i></a>
+            <a href="https://open.spotify.com/artist/3tVQdUvClmAT7URs9V3rsp" target="_blank" ><i class="fa-brands fa-spotify" style="color: #ffffff;"></i></a>
 
-            <a href="https://www.tiktok.com/@wizkidayo?lang=en"><i class="fa-brands fa-tiktok" style="color: white;"></i> </a>
+            <a href="https://www.tiktok.com/@wizkidayo?lang=en" target="_blank" ><i class="fa-brands fa-tiktok" style="color: white;"></i> </a>
         </div>
     </header>
     <!-- header section end  -->
@@ -130,14 +164,24 @@
             <iframe class="song three" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6JvWMLscnWYkgX1zPufIGT?utm_source=generator" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
-            <iframe class="song four" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2j8n2hpZlEMvtrjJ7n0ZIy?utm_source=generator"  height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-
-        
-
-            
+            <iframe class="song four" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2j8n2hpZlEMvtrjJ7n0ZIy?utm_source=generator"  height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            
         </div>
       </section>
+      <!-- music-section ends here  -->
+
+
+
+       <!-- video section starts here  -->
+       <section class="video" >
+        <h1>VIDEOS</h1>
+
+        <div class="videos">
+          <!-- <img src="images/Wizkid x Olamide.png" alt=""> -->
+
+          <i style="padding-top: 300px; color: white; font-size: 100px;" class="fa fa-play"></i>
+        </div>
+
+      </section> 
 
       
       <!-- linking of javascript  -->

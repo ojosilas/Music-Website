@@ -8,10 +8,149 @@
 }
 
 
+.popup {
+    background-color: rgba(0, 0, 0, 0.733);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+   
+  
+}
+
+.popup-content {
+    background-color: black;
+    padding: 30px 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.popup .cancel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup .cancel #close-popup {
+    font-size: 25px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.popup .popup-content .heading {
+    color: white;
+    font-size: 25px;
+    font-family: open Sans;
+    padding-top: 20px;
+}
+
+.popup .popup-content .form-details .name {
+    font-family: Lora;
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.popup .popup-content .form-details .email{
+    padding: 10px;
+    max-width: 350px;
+    width: 100%;
+    border: none;
+}
+
+
+.popup .popup-content .form-details .email::placeholder {
+    color: black;
+    font-family: Lora;
+}
+
+
+.popup .form-details .names {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+
+.popup .form-details .names .first {
+    padding: 10px;
+    max-width: 170px;
+    width: 100%;
+
+}
+
+.popup .form-details .names .first::placeholder {
+    color: black;
+    font-family: Lora;
+}
+
+
+.popup .form-details .names .last {
+    padding: 10px;
+    max-width: 170px;
+    width: 100%;
+}
+
+
+.popup .form-details .names .last::placeholder {
+    color: black;
+    font-family: Lora;
+}
+
+
+.popup .form-details .number {
+    padding: 10px;
+    max-width: 350px;
+    width: 100%;
+    border: none;
+}
+
+.popup .form-details .number::placeholder {
+    color: black;
+    font-family: Lora;
+}
+
+
+.popup .form-details .submit-button {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.popup .form-details .submit-button button {
+    padding: 5px 0px;
+    font-weight: 500;
+    font-family: Lora;
+    font-size: 15px;
+    max-width: 350px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.popup .form-details .submit-button button:hover{
+    color: white;
+    background-color: black;
+    border: none;
+}
 /* header starts here  */
 header{
     background: url(images/img1.jpg) no-repeat center center/cover;
     height: 100vh;
+    
 }
 
 header .nav-links ul{
@@ -101,6 +240,11 @@ header .social-icons{
     gap: 20px;
     font-size: 30px;   
 }
+
+header .social-icons a:hover{
+    color: #F97560;
+}
+
 
 
 /* header ends here  */
@@ -339,6 +483,49 @@ header .social-icons{
 .music-section .music .two {
     padding-top: 10px;
 }
+/* music section ends here  */
+
+
+
+/* Video section starts here  */
+.video{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #081316;
+   
+ 
+}
+
+
+.video h1{
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+.video .videos{
+    
+    margin: auto;
+    background: url(images/Wizkid\ x\ Olamide.png) no-repeat center center/contain;
+        height: 100vh;
+        max-width: 1100px;
+        width: 100%;
+
+}
+
+ /* .video .videos img{
+    max-width: 1100px;
+    width: 100%;
+}  */
+
+
+
 
 
 
@@ -362,9 +549,7 @@ header .social-icons{
         background-color: rgba(0, 0, 0, 0.453);
         backdrop-filter: blur(10px);
         gap: 15px;
-        padding-left: 0px;
-
-       
+        padding-left: 0px;  
     }
 
 
@@ -783,3 +968,28 @@ header .social-icons {
 
 
 
+
+
+/* media  query for video starts here  */
+/* @media screen and (max-width: 321px) {
+    .video .videos img {
+       
+    }
+
+    .video{
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 585px) {
+    .video .videos img {}
+
+    .video {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+} */
