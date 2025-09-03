@@ -41,7 +41,7 @@ function toggleText () {
 
 // script for the countdown starts here 
 // step1: set the date you want the countend to end 
-const targetDate = new Date("2025-07-30T00:00:00").getTime();
+const targetDate = new Date("2025-09-30T00:00:00").getTime();
 
 const countdown = setInterval(() => {
     // step2: update the countdown every one second 
